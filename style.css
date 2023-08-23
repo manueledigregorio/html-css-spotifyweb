@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.bar-left{
+    width: 225px;
+    height:calc(100vh - 88px ) ;
+}
+
+.top-bar{
+    width: calc(100vw - 225px);
+}
+
+.bar-bottom{
+    width: 100vw;
+    height: 88px;
+}
