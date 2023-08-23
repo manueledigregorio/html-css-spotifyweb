@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+ 
+.flex {
+    display: flex;
+}
 
 .debug{
     border: 1px solid black;
@@ -10,14 +14,36 @@
 
 .bar-left{
     width: 225px;
-    height:calc(100vh - 88px ) ;
+}
+
+.home{
+    height: calc(100% - 90px);
+}
+
+.profile{
+    height: 90px;
 }
 
 .top-bar{
     width: calc(100vw - 225px);
+    position: fixed;
+    height:90px ;
+    z-index: 999;
+    top: 0;
+    right: 0;
+}
+
+.content{
+    width: calc(100% - 225px);
+    height: 100%;
+    padding-top: 100px;
 }
 
 .bar-bottom{
     width: 100vw;
-    height: 88px;
+    height: 90px;
+}
+
+.contenitore{
+    height:calc(100vh - 90px )
 }
