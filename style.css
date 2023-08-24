@@ -14,7 +14,7 @@ body{
 }
 
 .debug{
-    border: 1px solid black;
+    border: 1px solid blue;
 }
 
 .debug2{
@@ -22,33 +22,59 @@ body{
 }
 
 .contenitore{
-    height:calc(100vh - 90px )
+    height:calc(100vh - 90px );
+    overflow: hidden;
+    
 }
 
 li{
     list-style: none;
-    color: #7E8084;
+    color: #7E8084; 
+    display: block;
 }
 
 li img{
     width: 30px;
-    color: #7E8084;
 }
 /*******BAR LEFT HOME******/
 
 .bar-left{
     width: 225px;
+    height: 100%;
+    background-color: black;
 }
 
 .home{
-    height: calc(100% - 90px);
-    background-color: black;
-    padding: 10px 20px;
+    height: 210px;
+    color: #7E8084;
 } 
+
+.playlist{
+    height: calc(100% - 90px - 210px);
+    overflow-y: auto;
+}
+
+.fa-plus{
+    background-color: gainsboro;
+    width: 20px;
+}
 
 .logo{
     width: 160px;
+    padding:20px;
 }
+
+.home ul li{
+    padding : 5px 10px;
+}
+
+.text-home{
+ color: white;
+ border-left: 2px solid greenyellow; 
+}
+
+
+
 
 
 
@@ -73,8 +99,17 @@ li img{
 }
 
 .bar-bottom{
-    width: 100vw;
     height: 90px;
+}
+
+.playlist-bottom{
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playlist-control{
+    width: 40%;
 }
 
 

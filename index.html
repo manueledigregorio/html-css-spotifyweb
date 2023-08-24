@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Spotify</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="contenitore flex">
-        <!----INIZIO BARRA LATERALE------>
-        <div class="bar-left debug">
-            <div class="home">
-                <img class="logo" src="img/logo.svg" alt="">
-                <ul>
-                    <li><img src="img/home.svg" alt="">Home</li>
-                    <li><img src="img/search.svg" alt="">Cerca</li>
-                    <li><img src="img/libreria.svg" alt="">Libreria</li>
-                </ul>
-            </div>
-            <div class="profile debug"></div>
+      <!----INIZIO BARRA LATERALE------>
+      <div class="bar-left">
+        <!---START HOME----->
+        <div class="home">
+          <img class="logo" src="img/logo.svg" alt="" />
+          <ul>
+            <li class="text-home"><img src="img/home.svg" alt="" />Home</li>
+            <li><img src="img/search.svg" alt="" /> <span>Cerca</span></li>
+            <li><img src="img/libreria.svg" alt="" />La tua libreria</li>
+          </ul>
         </div>
-        
-        <div class="content debug">
-
+        <!----FINE HOME-------->
+        <!---START PLAYLIST-------->
+        <div class="playlist debug">
+          <ul>
+            <li><i class="fa-solid fa-plus"></i>nuova playlist</li>
+            <li>nuova playlist</li>
+            <li>nuova playlist</li>
+            <li>nuova playlist</li>
+            <li>nuova playlist</li>
+          </ul>
         </div>
+        <!-----FINE PLAYLIST------>
+        <!---- START PROFILO ------>
+        <div class="profile debug">ciaooooooooooo</div>
+        <!----FINE PROFILO------>
+      </div>
 
-        <div class="top-bar debug2 ">
+      <div class="content debug"></div>
 
-        </div>
-
+      <div class="top-bar debug2"></div>
     </div>
 
-    <div class="bar-bottom debug2">
-
+    <div class="bar-bottom">
+      <div class="playlist-bottom flex">
+        <div class="play-song">play-song</div>
+        <div class="play-control">play-control</div>
+        <div class="play-volume">play-volume</div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
