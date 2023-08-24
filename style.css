@@ -144,6 +144,7 @@ li i.fa-plus:hover {
 
 .content {
   width: calc(100vw - 225px);
+  overflow-y: auto;
 }
 
 .list-content li {
@@ -170,16 +171,29 @@ li i.fa-plus:hover {
   padding-top: 100px;
 }
 
-.card{
-    width: calc(100vw / 6 );
-    flex-direction: column;
-    align-items: center
+.row{
+padding: 20px;
+}
 
+.col{
+  padding:10px;
+  width: 100%;
 
 }
 
-.card img {
+.content h2{
+  padding-left: 30px;
+}
+
+.card{
+    width: calc(90vw / 6 - 45px);
+    flex-direction: column;
+    align-items: center
+}
+
+.card-img img {
  object-fit: cover;
+ max-width: 100%;
 }
 
 .card-text{
