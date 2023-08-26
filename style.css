@@ -66,6 +66,10 @@ li {
   vertical-align: middle;
 }
 
+.home li span:hover{
+  color: white;
+}
+
 .text-home {
   color: white;
   border-left: 2px solid greenyellow;
@@ -184,6 +188,10 @@ li i:hover.fa-plus {
   background-color: #141922;
 }
 
+.list-content li:hover{
+  color: white;
+}
+
 .container-card h3 , h2 {
   color: white;
 }
@@ -273,7 +281,7 @@ flex-wrap: wrap;
 
 .card-img img {
  object-fit: cover;
- width: 100%;
+ max-width: 100%;
 }
 
 .card-img .radius-img{
@@ -435,3 +443,29 @@ flex-wrap: wrap;
 .volume:hover .fa-circle{
   display: block;
 }
+
+/******RESPONSIVE*******/
+
+@media screen and (max-width:1099px) {
+
+  .container-card .col{
+    width: calc(100% / 4 - 4px);
+  }
+  
+}
+
+@media screen and (max-width:799px) {
+
+  .container-card .col{
+    width: calc(100% / 2 - 4px);
+  }
+  
+}
+
+@media screen and (max-width:699px) {
+
+  
+  
+}
+
+
