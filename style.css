@@ -21,8 +21,6 @@ body {
   align-items: center;
 }
 
-
-
 .debug {
   border: 1px solid blue;
 }
@@ -64,6 +62,11 @@ li {
 .home li img {
   width: 30px;
   vertical-align: middle;
+}
+
+.logo-small{
+  display: none;
+  width: 30px;
 }
 
 .home li span:hover{
@@ -464,7 +467,38 @@ flex-wrap: wrap;
 
 @media screen and (max-width:699px) {
 
+  .bar-left {
+    width:50px;
+  }
+
+  .logo{
+    padding: 10px;
+  }
   
+  .logo-small{
+    display: block;
+    margin: 10px auto;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .top-bar {
+    width: calc(100vw - 50px);
+  }
+
+  .content {
+    width: calc(100vw - 50px);
+  }
+
+  .home{
+    height: calc(100% - 90px);
+  }
+  
+  .box-profile{
+    padding-left: 5px;
+  }
   
 }
 
